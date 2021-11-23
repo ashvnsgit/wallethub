@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestCases.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TC_02_WallethubReview">
+        <methods>
+          <include name="teardown"/>
+          <include name="naviagteurl"/>
+          <include name="ReviewPage"/>
+        </methods>
+      </class> <!-- TestCases.TC_02_WallethubReview -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

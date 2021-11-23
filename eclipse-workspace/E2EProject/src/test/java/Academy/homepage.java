@@ -21,6 +21,8 @@ public class homepage extends base{
 	
 	public static Logger log=LogManager.getLogger(base.class.getName());
 	
+	/*titel valodated?*/
+	
 	
 	@BeforeMethod
 	public void initialize() throws Exception
